@@ -1,21 +1,28 @@
-## Overview
-
-### Flowchart
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>flowchart.js · Playground</title>
-        <style type="text/css">
-          .end-element { fill : #FFCCFF; }
-        </style>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.0/raphael-min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="http://flowchart.js.org/flowchart-latest.js"></script>
-        <!-- <script src="../release/flowchart.min.js"></script> -->
-	<body>
-        <script id="code">
 
-startDecryptMessage=>start: Start decrypt message
+<head>
+	<meta charset="utf-8">
+	<title>flowchart.js · Playground</title>
+	<style type="text/css">
+		.end-element {
+			fill: #FFCCFF;
+		}
+	</style>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.0/raphael-min.js">
+
+	</script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+
+	</script>
+	<script src="http://flowchart.js.org/flowchart-latest.js">
+
+	</script>
+	<!-- <script src="../release/flowchart.min.js"></script> -->
+</head>
+
+<body>
+	<script id="code">
+		startDecryptMessage=>start: Start decrypt message
 decryptMessage=>subroutine: Decrypt message
 showMessage=>end: Show message
 loadZDM=>inputoutput: Read zdm attachment
@@ -76,12 +83,11 @@ checkDecryptionUseGoodToken(yes)->getChallenge
 checkDecryptionUseGoodToken(no)->showMessage
 getChallenge->getGoodAuthToken
 getGoodAuthToken->showMessage
-
-</script>
+	</script>
 	<div id="diagram"></div>
-	</body>
-	<script>
-	  var cd = document.getElementById("code"),
+</body>
+<script>
+	var cd = document.getElementById("code"),
 	chart;
 var draw = function() {
     var code = cd.innerHTML.replace(/(^[ \t]*\n)/gm, "");
@@ -93,5 +99,6 @@ var draw = function() {
 };
 
 draw();
-	</script>
-	</html>
+</script>
+
+</html>
