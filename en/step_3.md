@@ -18,19 +18,41 @@ A few lines describing what the user will create, beneath the level 2 header.
 
 The remaining content should be placed inside `--- collapse ---` blocks. These look like this
 
+
+
+The required collapses are shown below with example content.
+
 --- collapse ---
 ---
-title: Title of the collapse - click me to expand
+title: What you will need
 ---
-Here's the markdown for collapsing blocks
-```markdown
+### Hardware
+
++ A Quantum computer
++ An LED
+
+### Software
+
++ [Emacs](https://www.gnu.org/software/emacs/emacs.html){:target="_blank"}
+--- /collapse ---
+
 --- collapse ---
 ---
-title: Title of the collapse - click me to expand
+title: What you will learn
 ---
 
---- /collapse ---
-```
++ How to use Quantum-mode in Emacs
++ How to calculate 6 x 7
 --- /collapse ---
 
+--- collapse ---
+---
+title: Additional information for educators
+---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+
+You can [find the resources for this project here](http://rpf.io/project-name-go).
+
+--- /collapse ---
 
