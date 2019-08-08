@@ -18,7 +18,13 @@ A few lines describing what the user will create, beneath the level 2 header.
 
 The remaining content should be placed inside `--- collapse ---` blocks. These look like this
 
+--- collapse ---
+---
+title: Title of the collapse - click me to expand
+---
+Here's the markdown for collapsing blocks
 
+--- /collapse ---
 
 The required collapses are shown below with example content.
 
