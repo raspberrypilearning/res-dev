@@ -23,14 +23,16 @@ The remaining content should be placed inside `--- collapse ---` blocks. These l
 title: Title of the collapse - click me to expand
 ---
 Here's the markdown for collapsing blocks
-```markdown
-&dash;-- collapse ---
----
-title: Title of the collapse - click me to expand
----
+<html>
+<pre>
+&dash;#&dash;#&dash;# collapse &dash;#&dash;#&dash;#
+&dash;#&dash;#&dash;#
+title: Title of the collapse &dash;# click me to expand
+&dash;#&dash;#&dash;#
 
---- /collapse ---
-```
+&dash;#&dash;#&dash;# /collapse &dash;#&dash;#&dash;
+</pre>
+</html>
 --- /collapse ---
 
 The required collapses are shown below with example content.
