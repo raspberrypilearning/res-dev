@@ -24,7 +24,7 @@ title: Title of the collapse - click me to expand
 ---
 Here's the markdown for collapsing blocks
 ```markdown
---- collapse ---
+&dash;-- collapse ---
 ---
 title: Title of the collapse - click me to expand
 ---
