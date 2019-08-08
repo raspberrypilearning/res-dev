@@ -6,5 +6,7 @@ listed: false
 copyedit: false
 last_tested: "2019-08-08"
 steps:
-  - title: Introduction
+  - title: Quick start
+  - title: Project structure
+  - title: Introduction - step_1.md
 
