@@ -1,0 +1,11 @@
+title: res-dev
+hero_image: images/banner.png
+description: res-dev description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2019-08-08"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
