@@ -1,104 +1,18 @@
-<html lang="en">
+## Quick start
 
-<head>
-	<meta charset="utf-8">
-	<title>flowchart.js · Playground</title>
-	<style type="text/css">
-		.end-element {
-			fill: #FFCCFF;
-		}
-	</style>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.0/raphael-min.js">
-
-	</script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-
-	</script>
-	<script src="http://flowchart.js.org/flowchart-latest.js">
-
-	</script>
-	<!-- <script src="../release/flowchart.min.js"></script> -->
-</head>
-
-<body>
-	<script id="code">
-		startDecryptMessage=>start: Start decrypt message
-decryptMessage=>subroutine: Decrypt message
-showMessage=>end: Show message
-loadZDM=>inputoutput: Read zdm attachment
-getRecipientList=>operation: Get recipient list
-checkRecipientListSize=>condition: Is one recipient 
-in the list?
-checkIdentityInDB=>condition: Is identity 
-exist in DB?
-checkPolicyInDb=>condition: Is policy
-exist in DB?
-searchStoredIdentity=>operation: Search stored identity
-for any in recipient list
-checkStoredIdentity=>condition: Is only one 
-stored identity?
-showPickerList=>subroutine: Show picker list
-downloadDomainPolicy=>inputoutput: Download policy 
-for domain
-checkGoodTokenPolicy=>condition: Is policy
-"Use good token" 
-setted
-prepareIdentity=>operation: Store token 
-for identity
-checkTokenExpired=>condition: Is token expired?
-checkIdentityUseGoodToken=>condition: Is identity
-use good token?
-voltageAuthentication=>subroutine: Open browser 
-for voltage authentication
-checkDecryptionUseGoodToken=>condition: Is identity
-use good token?
-getChallenge=>inputoutput: Get challenge
-getGoodAuthToken=>inputoutput: Get Good 
-auth token
-
-startDecryptMessage->loadZDM
-loadZDM->getRecipientList
-getRecipientList->checkRecipientListSize
-checkRecipientListSize(no,left)->searchStoredIdentity
-searchStoredIdentity->checkStoredIdentity
-checkStoredIdentity(yes)->checkIdentityInDB
-checkStoredIdentity(no)->showPickerList
-showPickerList->checkIdentityInDB
-checkRecipientListSize(yes)->checkIdentityInDB
-checkIdentityInDB(yes)->checkIdentityUseGoodToken
-checkIdentityUseGoodToken(no,left)->checkTokenExpired
-checkIdentityUseGoodToken(yes)->decryptMessage
-checkTokenExpired(yes)->voltageAuthentication
-checkTokenExpired(no)->decryptMessage
-checkIdentityInDB(no)->checkPolicyInDb
-checkPolicyInDb(yes)->checkGoodTokenPolicy
-checkPolicyInDb(no)->downloadDomainPolicy
-voltageAuthentication->prepareIdentity
-downloadDomainPolicy->checkGoodTokenPolicy
-checkGoodTokenPolicy(yes)->decryptMessage
-checkGoodTokenPolicy(no,left)->voltageAuthentication
-prepareIdentity->decryptMessage
-decryptMessage->checkDecryptionUseGoodToken
-checkDecryptionUseGoodToken(yes)->getChallenge
-checkDecryptionUseGoodToken(no)->showMessage
-getChallenge->getGoodAuthToken
-getGoodAuthToken->showMessage
-	</script>
-	<div id="diagram"></div>
-</body>
-<script>
-	var cd = document.getElementById("code"),
-	chart;
-var draw = function() {
-    var code = cd.innerHTML.replace(/(^[ \t]*\n)/gm, "");
-    if (chart) {
-        chart.clean();
-    }
-    chart = flowchart.parse(code);
-    chart.drawSVG('diagram');
-};
-
-draw();
-</script>
-
-</html>
+1. Login to the [admin panel of the projects site](https://learning-admin.raspberrypi.org/admin/projects)
+2. Click on the `New Project` button.
+3. Complete the project infortmation
+![create-project.png](images/create-project.png)
+```text
+Name: My really cool project ##Can be what you like
+Repository name: my-cool-project ##Keep it short - this will be the slug
+Ingredient: [ ]
+Duration: [1] ##1 is less than hour, 2 is a few hours, 3 is many hours
+Theme: Blue ##Whatever takes your fancy
+Curriculum list: phys-comp-0, manufacture-0, design-0, community-0, programming-1, 1 ##scale of 1-4, last value is for the whole project
+Interest list: 3D Design, 3D Printing, CAD ##tags
+Site area list: projects ##needs to be projects 
+Hardware list: 3D printer ##tags
+Software list: freecad ##tags
+```
