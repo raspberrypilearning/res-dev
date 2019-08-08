@@ -16,3 +16,21 @@ A few lines describing what the user will create, beneath the level 2 header.
 --- /print-only ---
 ```
 
+The remaining content should be placed inside `--- collapse ---` blocks. These look like this
+
+--- collapse ---
+---
+title: Title of the collapse - click me to expand
+---
+Here's the markdown for collapsing blocks
+```markdown
+--- collapse ---
+---
+title: Title of the collapse - click me to expand
+---
+
+--- /collapse ---
+```
+--- /collapse ---
+
+
