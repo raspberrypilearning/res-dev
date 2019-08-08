@@ -23,14 +23,16 @@ The remaining content should be placed inside `--- collapse ---` blocks. These l
 title: Title of the collapse - click me to expand
 ---
 Here's the markdown for collapsing blocks
-```python
+<html>
+<pre>
 --- collapse ---
 ---
 title: Title of the collapse - click me to expand
 ---
 
 --- /collapse ---
-```
+</pre>
+</html>
 --- /collapse ---
 
 The required collapses are shown below with example content.
