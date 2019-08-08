@@ -25,12 +25,12 @@ title: Title of the collapse - click me to expand
 Here's the markdown for collapsing blocks
 <html>
 <pre>
-&dash;#&dash;#&dash;# collapse &dash;#&dash;#&dash;#
-&dash;#&dash;#&dash;#
-title: Title of the collapse &dash;# click me to expand
-&dash;#&dash;#&dash;#
+&dash;&dash;&dash; collapse &dash;&dash;&dash;
+&dash;&dash;&dash;
+title: Title of the collapse &dash; click me to expand
+&dash;&dash;&dash;
 
-&dash;#&dash;#&dash;# /collapse &dash;#&dash;#&dash;
+&dash;&dash;&dash; /collapse &dash;&dash;&dash;
 </pre>
 </html>
 --- /collapse ---
