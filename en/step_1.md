@@ -25,6 +25,7 @@ Software list: freecad ##tags
 10. Use another form to request cover art for the project
 11. Once copy edit is complete, **Pull** the changes to your local repo.
 12. update the `meta.yml` file and commit and push to draft
+
 ```yaml
 title: My really cool project
 hero_image: images/banner.png
@@ -38,6 +39,7 @@ steps:
   - title: Making a cool project
   - title: What next?
 ```
+
 13. Back on GitHub, create a new pull request, `Master <-- Draft`
 14. Submit and accept the pull request and check `#project-notifications`.
 

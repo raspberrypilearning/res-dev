@@ -14,7 +14,6 @@ A few lines describing what the user will create, beneath the level 2 header.
 --- print-only ---
 ![A static image of the finished project](images/finished-static.png)
 --- /print-only ---
-
 ```
 
 The remaining content should be placed inside `--- collapse ---` blocks. These look like this
@@ -23,6 +22,7 @@ The remaining content should be placed inside `--- collapse ---` blocks. These l
 ---
 title: Title of the collapse - click me to expand
 ---
+Here's the markdown for collapsing blocks
 ```markdown
 --- collapse ---
 ---
