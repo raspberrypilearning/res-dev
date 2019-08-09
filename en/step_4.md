@@ -52,8 +52,4 @@ No more than one ingredient should be included in each step. An ingredient will 
 
 The syntax for adding an ingredient is as follows:
 
-```markdown
-[[[name-of-ingredient-repo]]]
-```
-
-&#91;&#91;&#91;name-of-ingredient-repo&#93;&#93;&#93;
+<html><pre>&#91;&#91;&#91;name-of-ingredient-repo&#93;&#93;&#93;</pre></html>
