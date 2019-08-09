@@ -22,11 +22,11 @@ You avoided neing rickrolled
 This video was added using the following syntax
 
 <html><pre>
-&dash;&dash;&dash; no&dash;print &dash;&dash;&dash;
-<video width="640" height="360" controls>
-<source src="images/ngtgyu.mp4" type="video/mp4">
+&dash;&dash;&dash; no&dash;print &dash;&dash;&dash;</pre>
+&lt;video width="640" height="360" controls&gt;
+&lt;source src="images/ngtgyu.mp4" type="video/mp4"&gt;
 Your browser does not support mp4 video, try FireFox or Chrome
-</video>
+&lt;/video&gt;
 &dash;&dash;&dash; /no&dash;print &dash;&dash;&dash;
 
 &dash;&dash;&dash; print&dash;only &dash;&dash;&dash;
