@@ -12,7 +12,7 @@ steps:
   - title: Steps
   - title: Ingredients
   - title: "Challenge: Writing challenges"
-    	   challenge: true
+  challenge: true
   - title: Other markdown
   - title: Video and animation
   - title: Solutions and resources
