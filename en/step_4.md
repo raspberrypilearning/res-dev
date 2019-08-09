@@ -44,3 +44,16 @@ The second hint should have more guidance, and optionally code that needs orderi
 The third hint should contain the full solution to the problem.
 --- /hint --- --- /hints ---
 
+### Ingredients
+
+See the sections on [Ingredients](../5) for information on creating ingredients.
+
+No more than one ingredient should be included in each step. An ingredient will contain generic instructions on completing a task, such as creating a new file in a text editor.
+
+The syntax for adding an ingredient is as follows:
+
+```markdown
+[[[name-of-ingredient-repo]]]
+```
+
+&#91;&#91;&#91;name-of-ingredient-repo&#93;&#93;&#93;
