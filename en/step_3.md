@@ -29,7 +29,7 @@ Here's the markdown for collapsing blocks
 &dash;&dash;&dash;
 title: Title of the collapse &dash; click me to expand
 &dash;&dash;&dash;
-
+Content of collapse goes here.
 &dash;&dash;&dash; /collapse &dash;&dash;&dash;
 </pre>
 </html>
