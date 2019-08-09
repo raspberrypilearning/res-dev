@@ -21,15 +21,15 @@ You avoided neing rickrolled
 
 This video was added using the following syntax
 
-```markdown
---- no-print ---
+<html><pre>
+&dash;&dash;&dash; no&dash;print &dash;&dash;&dash;
 <video width="640" height="360" controls>
 <source src="images/ngtgyu.mp4" type="video/mp4">
 Your browser does not support mp4 video, try FireFox or Chrome
 </video>
---- /no-print ---
+&dash;&dash;&dash; /no&dash;print &dash;&dash;&dash;
 
---- print-only ---
+&dash;&dash;&dash; print&dash;only &dash;&dash;&dash;
 You avoided neing rickrolled
---- /print-only
-```
+&dash;&dash;&dash; /print&dash;only
+</pre></html>
