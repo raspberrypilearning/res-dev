@@ -24,7 +24,7 @@ Your browser does not support mp4 video, try FireFox or Chrome
 
 --- print-only ---
 You avoided neing rickrolled
---- /print-only
+--- /print-only ---
 
 This video was added using the following syntax
 
