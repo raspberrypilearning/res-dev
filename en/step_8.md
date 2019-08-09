@@ -2,17 +2,24 @@
 
 Videos and animated gifs can be added to project steps.
 
-They should always be enclosed in `--- no-print ---` tags with an image or text fall back inside `--- print-only ---` blocks.
+They should always be enclosed in a:
+
+<html><pre>&dash;&dash;&dash; no&dash;print &dash;&dash;&dash;</pre></html>
+
+An image or text fallback should be included in a:
+
+<html><pre>&dash;&dash;&dash; print&dash;only &dash;&dash;&dash;</pre></html> 
+
 
 Online streaming services should be avoided due to filtering in school.
 
 Videos and gifs should be placed into the images folder. Try to keep the file size as small as possible. Resolutions larger than 1000px wide should be avoided, and videos should be no longer than a couple of minutes long.
 
 --- no-print ---
-<html><video width="640" height="360" controls>
+<video width="640" height="360" controls>
 <source src="images/ngtgyu.mp4" type="video/mp4">
 Your browser does not support mp4 video, try FireFox or Chrome
-</video></html>
+</video>
 --- /no-print ---
 
 --- print-only ---
@@ -21,4 +28,15 @@ You avoided neing rickrolled
 
 This video was added using the following syntax
 
+<html><pre>
+&dash;&dash;&dash; no&dash;print &dash;&dash;&dash;
+<video width="640" height="360" controls>
+<source src="images/ngtgyu.mp4" type="video/mp4">
+Your browser does not support mp4 video, try FireFox or Chrome
+</video>
+&dash;&dash;&dash; /no&dash;print &dash;&dash;&dash;
 
+&dash;&dash;&dash; print&dash;only &dash;&dash;&dash;
+You avoided neing rickrolled
+&dash;&dash;&dash; /print&dash;only
+</pre></html>
