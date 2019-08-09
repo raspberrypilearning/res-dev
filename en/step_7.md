@@ -25,6 +25,7 @@ Additionally, inline scratch code can be coloured according to it's class.
 <html><pre>&#96;when flag clicked&#96;{:class="block3events"}</pre></html>
 
 Options are:
+
 ```markdown
 block3motion
 block3looks

@@ -7,8 +7,8 @@ Challenges are optional, so the project can be completed even if the challenge i
 Challenges need to be designated in the `meta.yml` file:
 
 ```markdown
-  - title: "Challenge: Writing challenges"
-    	   challenge: true
+  - title: 'Challenge: Writing challenges'
+    challenge: true
 ```
 
 Don't forget the quotes as the `:` will break the build otherwise.
