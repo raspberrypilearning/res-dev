@@ -23,8 +23,8 @@ This video was added using the following syntax
 
 <html><pre>
 &dash;&dash;&dash; no&dash;print &dash;&dash;&dash;
-&lt;video width="640" height="360" controls&gt;
-&lt;source src="images/ngtgyu.mp4" type="video/mp4"&gt;
+&lt;video width=&quot;640&quot; height=&quot;360&quot; controls&gt;
+&lt;source src=&quot;images/ngtgyu.mp4&quot; type=&quot;video/mp4&quot;&gt;
 Your browser does not support mp4 video, try FireFox or Chrome
 &lt;/video&gt;
 &dash;&dash;&dash; /no&dash;print &dash;&dash;&dash;
