@@ -9,10 +9,10 @@ Online streaming services should be avoided due to filtering in school.
 Videos and gifs should be placed into the images folder. Try to keep the file size as small as possible. Resolutions larger than 1000px wide should be avoided, and videos should be no longer than a couple of minutes long.
 
 --- no-print ---
-<video width="640" height="360" controls>
+<html><video width="640" height="360" controls>
 <source src="images/ngtgyu.mp4" type="video/mp4">
 Your browser does not support mp4 video, try FireFox or Chrome
-</video>
+</video></html>
 --- /no-print ---
 
 --- print-only ---
