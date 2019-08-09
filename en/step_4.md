@@ -46,7 +46,7 @@ The third hint should contain the full solution to the problem.
 
 ### Ingredients
 
-See the sections on [Ingredients](../5) for information on creating ingredients.
+See the sections on [Ingredients](./5){:target="_blank"} for information on creating ingredients.
 
 No more than one ingredient should be included in each step. An ingredient will contain generic instructions on completing a task, such as creating a new file in a text editor.
 

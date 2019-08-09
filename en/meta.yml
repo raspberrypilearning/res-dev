@@ -11,3 +11,8 @@ steps:
   - title: Introduction - step_1.md
   - title: Steps
   - title: Ingredients
+  - title: "Challenge: Writing challenges"
+    	   challenge: true
+  - title: Other markdown
+  - title: Video and animation
+  - title: Solutions and resources
