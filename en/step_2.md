@@ -2,7 +2,7 @@
 
 ### Directories and Files
 
-Upon creating a project, you should see the following structure:
+- Upon creating a project, you should see the following structure:
 
 ```bash
 .
@@ -22,10 +22,10 @@ Upon creating a project, you should see the following structure:
 ```
 
 #### banner.png
-This will be the cover art used in the project. It's name should remain unchanged, and the file can be replaced once artwork has been completed
+- This will be the cover art used in the project. It's name should remain unchanged, and the file can be replaced once artwork has been completed
 
 #### CONTRIBUTING.md
-Contribution guidelines. You only need to edit the `## Issues` section.
+- Contribution guidelines. You only need to edit the `## Issues` section.
 
 ```markdown
 ## Issues
@@ -34,21 +34,21 @@ If you find a mistake, bug, or other problem, please [open an issue](https://git
 ```
 
 #### crowdin.yml
-Leave this alone unless you're doing translation work
+- Leave this alone unless you're doing translation work
 
 #### en
-This contains the English version of the project.
-- `images` is where all images, animations and videos are stored
-- `meta.yml` contains the meta data for the project
-- `resources` should contain any starter files that a user might need
-- `solutions` should contain a full solution for the project
-- `steps_1 --> n.md` should be the project content
+- This contains the English version of the project.
+  - `images` is where all images, animations and videos are stored
+  - `meta.yml` contains the meta data for the project
+  - `resources` should contain any starter files that a user might need
+  - `solutions` should contain a full solution for the project
+  - `steps_1 --> n.md` should be the project content
 
 #### LICENCE.md
-License information. You need to update the section with the project-name.
+- License information. You need to update the section with the project-name.
 ```markdown
 Based on a work at https://github.com/raspberrypilearning/my-cool-project.
 ```
 
 #### README.md
-Information for GitHub users. You can leave this alone.
+- Information for GitHub users. You can leave this alone.

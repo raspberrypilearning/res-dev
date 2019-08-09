@@ -1,6 +1,6 @@
 ## Introduction - step_1.md
 
-The Introduction should start as follow.
+- The Introduction should start as follow.
 
 ```markdown
 ## Introduction
@@ -16,13 +16,13 @@ A few lines describing what the user will create, beneath the level 2 header.
 --- /print-only ---
 ```
 
-The remaining content should be placed inside `--- collapse ---` blocks. These look like this
+- The remaining content should be placed inside `--- collapse ---` blocks. These look like this
 
 --- collapse ---
 ---
 title: Title of the collapse - click me to expand
 ---
-Here's the markdown for collapsing blocks
+- Here's the markdown for collapsing blocks
 <html>
 <pre>
 &dash;&dash;&dash; collapse &dash;&dash;&dash;
@@ -35,7 +35,7 @@ Content of collapse goes here.
 </html>
 --- /collapse ---
 
-The required collapses are shown below with example content.
+- The required collapses are shown below with example content.
 
 --- collapse ---
 ---
@@ -65,9 +65,9 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
 
-You can [find the resources for this project here](http://rpf.io/project-name-go).
+- You can [find the resources for this project here](http://rpf.io/project-name-go).
 
 --- /collapse ---
 

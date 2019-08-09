@@ -2,7 +2,7 @@
 
 ### Scratch
 
-Scratch blocks can be rendered using fenced code blocks. For testing purposes, you may find it helpful to use the [Scratchblocks](http://scratchblocks.github.io){:target="_blank"} website
+- Scratch blocks can be rendered using fenced code blocks. For testing purposes, you may find it helpful to use the [Scratchblocks](http://scratchblocks.github.io){:target="_blank"} website
 
 ```blocks3
 when flag clicked
@@ -10,7 +10,7 @@ move (10) steps
 turn cw (pick random (0) to (180)) degrees
 ```
 
-was rendered using the following syntax
+- This was rendered using the following syntax
 
 <html><pre>&#96;&#96;&#96;blocks3
 when flag clicked
@@ -18,9 +18,9 @@ move (10) steps
 turn cw (pick random (0) to (180)) degrees
 &#96;&#96;&#96;</pre></html>
 
-Additionally, inline scratch code can be coloured according to it's class.
+- Additionally, inline scratch code can be coloured according to it's class.
 
-`when flag clicked`{:class="block3events"} was rendered using the following syntax.
+- `when flag clicked`{:class="block3events"} was rendered using the following syntax.
 
 <html><pre>&#96;when flag clicked&#96;{:class="block3events"}</pre></html>
 
@@ -56,7 +56,7 @@ for i in range(5):
 &#96;&#96;&#96;</pre></html>
 
 
-Or you can use a more verbose form, for greater options:
+- Or you can use a more verbose form, for greater options:
 
 --- code ---
 ---
