@@ -24,3 +24,4 @@
 ![confirm_merge.pngconfirm_merge.png](confirm_merge.pngconfirm_merge.png)
 1. Check [Slack project-notifications](https://raspberrypifoundation.slack.com/messages/CJCB193BJ){:target="_blank"} to ensure the project builds.
 1. The project can be viewed at `projects.raspberrypi.org/en/projects/project-name`
+
