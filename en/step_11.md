@@ -6,11 +6,13 @@
 
 - Following testing, submit your resource to be Copy Edited, using the [following form](https://commsraspberrypi.wufoo.com/forms/comms-team-work-request/){:target="_blank"}.
 
+- Once copy edit is complete change `copyedit=true` in `meta.yml`
+
 - Use another form to request a `banner.png` image for the resource
 
 - Once copy edit has been completed you can publish the resource. You do not need to wait for the cover art to be produced.
 
-- Change `listed: false` to `listed: true` in the meta.yml, so it can be indexed on the projects main page.
+- Change `listed: false` to `listed: true` in the meta.yml, so it can be indexed on the projects main page. Also update the `tested` date.
 
 1. On GitHub click on the `New pull request` button
 ![new_pull.png](images/pull_request_button.png)

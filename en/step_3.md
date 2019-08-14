@@ -78,7 +78,7 @@ Note the syntax for the automated links is as follows.
 <html><pre>
 - If you need to print this project, please use the &#91;printer-friendly version](https:&#47;&#47;projects.raspberrypi.org&#47;en&#47;projects&#47;project-name&#47;print){:target="_blank"}.
 
-- You can &#91;find the resources for this project here](http:&#47;&#47;rpf.io&#47;p&#47;project-name-go){:target="_blank"}.
+- You can &#91;find the resources for this project here](http:&#47;&#47;rpf.io&#47;p&#47;en&#47;project-name-go){:target="_blank"}.
 
-- You can &#91;find the solutions for this project here](http:&#47;&#47;rpf.io&#47;p&#47;project-name-gey){:target="_blank"}.
+- You can &#91;find the solutions for this project here](http:&#47;&#47;rpf.io&#47;p&#47;en&#47;project-name-get){:target="_blank"}.
 </pre></html>
