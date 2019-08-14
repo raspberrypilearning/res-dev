@@ -2,19 +2,19 @@
 
 - The Introduction should start as follow.
 
-```markdown
+<html><pre>
 ## Introduction
 A few lines describing what the user will create, beneath the level 2 header.
 
 ### What you will make
---- no-print ---
-![An animation/video/embedded representation of the finished project](images/finished-project.gif)
---- /no-print ---
+&dash;&dash;&dash; no&dash;print &dash;&dash;&dash;
+![An animation/video/embedded representation of the finished project](images/finished&dash;project.gif)
+&dash;&dash;&dash; /no&dash;print &dash;&dash;&dash;
 
---- print-only ---
-![A static image of the finished project](images/finished-static.png)
---- /print-only ---
-```
+&dash;&dash;&dash; print&dash;only &dash;&dash;&dash;
+![A static image of the finished project](images/finished&dash;static.png)
+&dash;&dash;&dash; /print&dash;only &dash;&dash;&dash;
+</pre></html>
 
 - The remaining content should be placed inside `--- collapse ---` blocks. These look like this
 
