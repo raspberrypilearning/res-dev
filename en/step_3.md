@@ -8,12 +8,12 @@ A few lines describing what the user will create, beneath the level 2 header.
 
 ### What you will make
 &dash;&dash;&dash; no&dash;print &dash;&dash;&dash;
-![An animation/video/embedded representation of the finished project](images/finished&dash;project.gif)
-&dash;&dash;&dash; /no&dash;print &dash;&dash;&dash;
+&#33;[An animation&#47;video&#47;embedded representation of the finished project](images&#47;finished&dash;project.gif)
+&dash;&dash;&dash; &#47;no&dash;print &dash;&dash;&dash;
 
 &dash;&dash;&dash; print&dash;only &dash;&dash;&dash;
-![A static image of the finished project](images/finished&dash;static.png)
-&dash;&dash;&dash; /print&dash;only &dash;&dash;&dash;
+&#33;[A static image of the finished project](images&#47;finished&dash;static.png)
+&dash;&dash;&dash; &#47;print&dash;only &dash;&dash;&dash;
 </pre></html>
 
 - The remaining content should be placed inside `--- collapse ---` blocks. These look like this
