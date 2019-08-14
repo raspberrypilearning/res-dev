@@ -13,7 +13,7 @@
 - Change `listed: false` to `listed: true` in the meta.yml, so it can be indexed on the projects main page.
 
 1. On GitHub click on the `New pull request` button
-![create_pull.png](images/create_pull.png)
+![new_pull.png](images/pull_request_button.png)
 1. Ensure `draft` is being merged into `master`
 ![master-draft.png](images/master-draft.png)
 1. Then click on the `Create pull request` button
