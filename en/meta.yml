@@ -1,0 +1,21 @@
+title: Resource development guide
+hero_image: images/banner.png
+description: How to build Raspberry Pi learning resources
+version: 4
+listed: false
+copyedit: false
+last_tested: "2019-08-08"
+steps:
+  - title: Quick start
+  - title: Project structure
+  - title: 'Introduction - step_1.md'
+  - title: Steps
+  - title: Ingredients
+  - title: 'Challenge: Writing challenges'
+    challenge: true
+  - title: Other markdown
+  - title: Video and animation
+  - title: Solutions and resources
+  - title: What next?
+  - title: Publishing
+  - title: What next?
